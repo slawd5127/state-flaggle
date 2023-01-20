@@ -28,9 +28,11 @@ let currentRound;
 
 function preload() {
   let alabama = new State(loadImage('images/alabama.jpg'), "Alabama", 32.366805, -86.299969);
-let alaska = new State(loadImage('images/alaska.jpg'), "Alaska", 58.301944, -134.419722);
-let arizona = new State(loadImage('images/arizona.jpg'), "Arizona", 33.448377, -112.074037);
-let arkansas = new State(loadImage('images/arkansas.jpg'), "Arkansas", 34.746481, -92.289595);
+  let alaska = new State(loadImage('images/alaska.jpg'), "Alaska", 58.301944, -134.419722);
+  let arizona = new State(loadImage('images/arizona.jpg'), "Arizona", 33.448377, -112.074037);
+  let arkansas = new State(loadImage('images/arkansas.jpg'), "Arkansas", 34.746481, -92.289595);
+  let california = new State(loadImage('images/california.jpg'), "California", 38.581572, -121.494400);
+  let colorado = new State(loadImage('images/colorado.jpg'), "Colorado", )
 
 let allStates = [alabama, alaska, arizona, arkansas]
 
